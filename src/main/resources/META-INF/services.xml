@@ -1,0 +1,12 @@
+<service name="ELB_LIFE_CHECKER_$$_SERVICE" scope="application">
+    <transports>
+        <transport>http</transport>
+    </transports>
+    <parameter name="ServiceClass">org.wso2.elb.life.checker.ELBLifeCheckerService</parameter>
+
+    <operation name="pingService">
+        <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out"
+                         class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        <actionMapping>urn:pingService</actionMapping>
+    </operation>
+</service>
