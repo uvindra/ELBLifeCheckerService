@@ -7,7 +7,7 @@ The service is packaged as a OSGi bundle.
 
 Installation
 ------------
-Since this is packaged as an OSGi bundle, copy the ELBLifeCheckerService_1.0.0.jar file to <CARBON_SERVER>/repository/components/dropins to install
+Since this is packaged as an OSGi bundle, copy the ELBLifeCheckerService_1.0.0.jar file to \<CARBON_SERVER\>/repository/components/dropins to install
 
 
 Service Invocation
